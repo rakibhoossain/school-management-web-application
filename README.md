@@ -22,4 +22,9 @@ Features:
   
 Installation:                                                                                                                             
   1.Create a database 'school'                                                                                                             
-  2.Open \core\init.php & replace info with urs.                                                                                           
+  2.Open \core\init.php & replace info with urs.       
+  
+Live: http://www.schoolz.cf                                                                                                               
+LOGIN ACCOUNT                                                                                                                           
+    Email: admin@gmail.com                                                                                                                 
+    Password: root
