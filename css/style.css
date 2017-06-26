@@ -1,0 +1,189 @@
+
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/**********************/
+/*********Navbar*******/
+/**********************/
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar li::after{
+	content: "";
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #8bc34a;
+	transition: 0.5s;
+}
+.navbar li:hover::after{
+	width: 100%;
+}
+/**********************/
+/*****Registation*******/
+/**********************/
+.bcon{
+	padding-top: 25%;
+	padding-bottom: 25%;
+	
+
+}
+.bcon img{
+	border-radius: 100%;
+}
+.reg.page-header{
+  margin-top: 20px;
+}
+/*Form style*/
+#city,#datepicker,#section{
+	margin-bottom: 3px;
+}
+/**********************/
+/*****Login Form*******/
+/**********************/
+.vcen {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 40px;
+}
+@media (max-width: 500px) {
+  .vcen {
+    min-width: 90%;
+  }
+}
+
+#logo-container{
+  margin: auto;
+  margin-bottom: 10px;
+  width:200px;
+  height:30px;
+  /*background-image:url('http://placehold.it/200x30/000000/ffffff/&text=BRAND+LOGO');*/
+}
+
+/************************/
+/*****Update Table*******/
+/************************/
+.st_edit input,.st_edit select{
+  border:0px solid #000; margin:0!important;padding: 0; background:transparent; width:100%;height: 100%;border-radius: 0;
+}
+.st_edit input[type="radio"]{
+  /*margin-top: 11px!important;*/
+  height: 15px;
+}
+table.st_edit tr th{
+  border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;
+}
+table.st_edit tr td{
+  border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;
+  padding: 0;
+}
+table.st_edit{
+  background: #fff none repeat scroll 0 0;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+table.st_edit td{
+  height: 20px;
+}
+
+  /*table tr:nth-child(even){background:#ccc;}
+  table tr:nth-child(odd){background:#eee;}*/
+
+
+/******************************/
+/*******Student Table**********/
+/******************************/
+
+
+
+
+/************************/
+/********All Table*******/
+/************************/
+input[type="text"] ,select#stc,select#city,select#section,input[type="email"],input[type="radio"]{
+  color: #000000;
+}
+/************************/
+/********Search Box*******/
+/************************/
+input[type="search"] {
+    color: #666;
+    background: #fff;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    padding: 0.3em;
+    width: 100%;
+}
+
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+#search-box{
+  position: relative;
+}
+#search-box .search{
+    position: absolute;
+    top: 20%;
+    right: 12px;
+}
+
+
+
+/**********************/
+/*****Modal************/
+/**********************/
+.modal-header .close {
+    margin-top: -20px;
+}
+#s_update .input-group {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/**********************/
+/*******Student**********/
+/**********************/
+#nav-after{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.exel_dl_btn {
+    background: transparent;
+    border: none;
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin-right: 15px;
+}.exel_dl_img {
+    
+}
+/**********************/
+/*********Footer*******/
+/**********************/
+.Copyright{
+  margin-bottom: 1px;
+}
+.clear{
+  clear: both;
+}
