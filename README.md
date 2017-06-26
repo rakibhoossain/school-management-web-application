@@ -3,13 +3,13 @@ School management web application using php,msqli
 
 
 Features:
-  1.Multiple user
-  2.Add student
-  3.delete student
-  4.update utudent profile
-  5.marks entry
-  6.update marks
-  7.Search result
+  1.Multiple user                                                                                                                         
+  2.Add student                                                                                                                           
+  3.delete student                                                                                                                        
+  4.update utudent profile                                                                                                      
+  5.marks entry                                                             
+  6.update marks                                                                  
+  7.Search result                                                               
   8.Search student
   9.Data download in pdf & excel format
   10.Upload Student data from excel file
